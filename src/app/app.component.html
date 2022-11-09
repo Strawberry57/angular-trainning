@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+  <hello
+  #toogleComp
+  names="{{ name }} "
+  (handlerClick)="onSelect($event)"
+  (DeleteClick)="onDelete($event)"
+  [checked]="isChecked"
+  (ChangeClick)="handleChaneChecked($event)"
+></hello>
+
+
+
+
+
+<button #toogleChange (click)="toogleComp.toggle()">click Change</button>
